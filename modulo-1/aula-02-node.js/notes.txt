@@ -1,0 +1,8 @@
+Instalação do live server
+
+liver-server: biblioteca que permite recarregar o projeto sempre que uma alteração for feita no código HTML.
+
+npm install -g live-server
+
+opção -g permite instalação global da biblioteca
+
