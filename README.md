@@ -5,7 +5,7 @@
 
 # Objetivos
 
-<p>Conhecer técnicas de construção de uma aplicação passando por todas as suas camadas lógicas - backend, frontend,
+<p align="justify">Conhecer técnicas de construção de uma aplicação passando por todas as suas camadas lógicas - backend, frontend,
 persistência de dados NoSQL, controle de versionamentode código com Git e implantação em nuvem - habilitando-se
 para atuar profissionalmente na área.</p>
 
@@ -14,7 +14,7 @@ para atuar profissionalmente na área.</p>
 <ol>
 <li>
 <h3><b>Fundamentos</b></h3>
-<p>Introdução, instalação e configuração do Visual Studio
+<p align="justify">Introdução, instalação e configuração do Visual Studio
 Code (<b>VSCode</b>). Instalação do <b>Node.js</b>. Instalação
 da biblioteca <b>live-server</b>. Noções de <b>HTML</b> e <b>CSS</b>.
 Introdução ao <b>JavaScript</b>. Integração do <b>JavaScript</b>
@@ -25,7 +25,7 @@ estruturas de repetição, manipulação de eventos.</p>
 </li>
 <li>
 <h3><b>Desenvolvimento de API’s</b></h3>
-<p>Introdução ao desenvolvimento backend. Backend
+<p align="justify">Introdução ao desenvolvimento backend. Backend
 x frontend. Introdução ao desenvolvimento de
 APIs. Introdução ao desenvolvimento com <b>Node.
 js</b>. Introdução ao <b>Express</b>. Criação de requisições
@@ -38,7 +38,7 @@ e <b>DELETE</b>. Desenvolvimento das operações <b>CRUD</b>.
 </li>
 <li>
 <h3><b>FrontEnd com React</b></h3>
-<p>Instalação e configuração do <b><b>React</b></b>. Criação de projetos
+<p align="justify">Instalação e configuração do <b><b>React</b></b>. Criação de projetos
 com o <b>create-react-app</b>. Introdução ao <b>React – JSX</b>,
 Componentes de <b>Funções</b>, <b>Componentes de Classe</b>,
 <b>State</b>, <b>Props</b>, <b>Binding</b>, <b>Interpolação</b>. Comunicação entre
@@ -50,7 +50,7 @@ um pequeno projeto passo-a-passo com <b>React</b>.
 </li>
 <li>
 <h3><b>Persistência de dados, versionamento de código e implantação</b></h3>
-<p>Introdução ao <b>MongoDB</b>. Utilização do serviço <b>mLab</b>.
+<p align="justify">Introdução ao <b>MongoDB</b>. Utilização do serviço <b>mLab</b>.
 Integrando a API ao <b>MongoDB</b> no <b>mLab</b>. Introdução ao
 <b>Git</b>. Instalação do <b>git</b>. Principais comandos do <b>Git</b>. Como
 publicar aplicações no <b>Github</b>. Introdução ao <b>Heroku</b>.
