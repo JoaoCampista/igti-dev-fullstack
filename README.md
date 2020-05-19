@@ -66,13 +66,13 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 
 ### Módulo 1
 
-- [x] Aula 1 - Visual Studio Code
-- [x] Aula 2 - Node.js
-- [x] Aula 3 - Noções de HTML
-- [x] Aula 4 - Noções de CSS
-- [x] Aula 5 - Introdução ao JavaScript
-- [x] Aula 6 - JavaScript - comandos de bloco
-- [x] Aula 7 - JavaScript - manipulação do DOM
+- [x] Aula 1 - Visual Studio Code :heavy_check_mark:
+- [x] Aula 2 - Node.js :heavy_check_mark:
+- [x] Aula 3 - Noções de HTML :heavy_check_mark:
+- [x] Aula 4 - Noções de CSS :heavy_check_mark:
+- [x] Aula 5 - Introdução ao JavaScript :heavy_check_mark:
+- [x] Aula 6 - JavaScript - comandos de bloco :heavy_check_mark:
+- [x] Aula 7 - JavaScript - manipulação do DOM :heavy_check_mark:
 - [ ] Aula 8 - JavaScript - formulários e manipulação de eventos
 - [ ] Aula 9 - CRUD com HTML, CSS e JavaScript
 - [ ] Aula 10 - JavaScript moderno - Introdução
