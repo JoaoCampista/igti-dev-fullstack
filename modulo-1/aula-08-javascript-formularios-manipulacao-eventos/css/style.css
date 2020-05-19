@@ -1,0 +1,53 @@
+body {
+  background-color: chartreuse;
+  padding: 10px;
+}
+
+img {
+  max-width: 25%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem; /*rem - serve para relativar o tamanho da fonte*/
+  font-weight: bold;
+  color: purple;
+}
+
+p {
+  text-align: left;
+  font-size: 1.5rem;
+  color: magenta;
+}
+
+.dados-pessoais {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#dados {
+  padding-left: 30px;
+  list-style: disc;
+}
+
+table,
+tr,
+td,
+th {
+  padding: 5px;
+  border: 1px solid blue;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+th {
+  background-color: #ddd;
+}
+
+.emphasis {
+  font-weight: bold;
+  color: red;
+}

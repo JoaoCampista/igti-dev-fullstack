@@ -76,7 +76,7 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 - [x] Aula 5 - Introdução ao JavaScript :heavy_check_mark:
 - [x] Aula 6 - JavaScript - comandos de bloco :heavy_check_mark:
 - [x] Aula 7 - JavaScript - manipulação do DOM :heavy_check_mark:
-- [ ] Aula 8 - JavaScript - formulários e manipulação de eventos
+- [x] Aula 8 - JavaScript - formulários e manipulação de eventos
 - [ ] Aula 9 - CRUD com HTML, CSS e JavaScript
 - [ ] Aula 10 - JavaScript moderno - Introdução
 - [ ] Aula 11 - JavaScript moderno - Manipulação de arrays
