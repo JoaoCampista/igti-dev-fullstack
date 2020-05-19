@@ -1,6 +1,7 @@
-<h1>Bootcamp de Desenvolvedor Full-Stack</h1>
-
-<img align="center" src="./assets/bootcamp_fullstack.png">
+<p align="center">
+  <img src="./assets/bootcamp_fullstack.png">
+</p>
+<h1 align="center">Bootcamp de Desenvolvedor Full-Stack</h1>
 
 # Objetivos
 
@@ -138,3 +139,5 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 <li>Heroku
 </li>
 </ul>
+
+<p align = "center">Feito com :heart: por João</p>
