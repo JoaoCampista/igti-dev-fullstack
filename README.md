@@ -140,4 +140,4 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 </li>
 </ul>
 
-<p align = "center">Feito com :heart: por João</p>
+<p align = "center">Feito com :heart: por João Campista</p>
