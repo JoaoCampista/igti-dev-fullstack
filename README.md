@@ -1,7 +1,7 @@
 <h1>Bootcamp de Desenvolvedor Full-Stack</h1>
 
-<h2><b>Objetivos</b><h2>
-<h3></h3>
+# Objetivos
+
 <p>Conhecer técnicas de construção de uma aplicação passando por todas as suas camadas lógicas - backend, frontend,
 persistência de dados NoSQL, controle de versionamentode código com Git e implantação em nuvem - habilitando-se
 para atuar profissionalmente na área.</p>
@@ -64,10 +64,31 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 
 # Progresso
 
-- [ ] Módulo 1
-- [ ] Módulo 2
-- [ ] Módulo 3
-- [ ] Módulo 4
+### Módulo 1
+
+- [x] Aula 1 - Visual Studio Code
+- [x] Aula 2 - Node.js
+- [x] Aula 3 - Noções de HTML
+- [x] Aula 4 - Noções de CSS
+- [x] Aula 5 - Introdução ao JavaScript
+- [x] Aula 6 - JavaScript - comandos de bloco
+- [x] Aula 7 - JavaScript - manipulação do DOM
+- [ ] Aula 8 - JavaScript - formulários e manipulação de eventos
+- [ ] Aula 9 - CRUD com HTML, CSS e JavaScript
+- [ ] Aula 10 - JavaScript moderno - Introdução
+- [ ] Aula 11 - JavaScript moderno - Manipulação de arrays
+- [ ] Aula 12 - JavaScript moderno - Rest/Spread operator e destructuring
+- [ ] Aula 13 - Refatoração do projeto de CRUD
+- [ ] Aula 14 - Introdução à programação assíncrona com JavaScript
+- [ ] Aula 15 - Funções setTimeout e setInterval
+- [ ] Aula 16 - Requisições HTTP com JavaScript
+- [ ] Aula 17 - Exercício guiado
+
+### Módulo 2
+
+### Módulo 3
+
+### Módulo 4
 
 # Tecnologias
 
