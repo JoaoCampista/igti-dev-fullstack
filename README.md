@@ -1,53 +1,117 @@
 <h1>Bootcamp de Desenvolvedor Full-Stack</h1>
 
 <h2><b>Objetivos</b><h2>
+<h3></h3>
 <p>Conhecer técnicas de construção de uma aplicação passando por todas as suas camadas lógicas - backend, frontend,
 persistência de dados NoSQL, controle de versionamentode código com Git e implantação em nuvem - habilitando-se
 para atuar profissionalmente na área.</p>
 
-<h2><b>Módulos</b><h2>
+# Módulos
+
+<ol>
+<li>
 <h3><b>Fundamentos</b></h3>
 <p>Introdução, instalação e configuração do Visual Studio
-Code (VSCode). Instalação do Node.js. Instalação
-da biblioteca live-server. Noções de HTML e CSS.
-Introdução ao JavaScript. Integração do JavaScript
-com o HTML e CSS. JavaScript básico – console,
+Code (<b>VSCode</b>). Instalação do <b>Node.js</b>. Instalação
+da biblioteca <b>live-server</b>. Noções de <b>HTML</b> e <b>CSS</b>.
+Introdução ao <b>JavaScript</b>. Integração do <b>JavaScript</b>
+com o <b>HTML</b> e <b>CSS</b>. <b>JavaScript</b> básico – console,
 comentários, tipos primitivos, variáveis, API’s nativas
 de servidor e web, funções, estruturas de decisão,
 estruturas de repetição, manipulação de eventos.</p>
-
+</li>
+<li>
 <h3><b>Desenvolvimento de API’s</b></h3>
 <p>Introdução ao desenvolvimento backend. Backend
 x frontend. Introdução ao desenvolvimento de
-APIs. Introdução ao desenvolvimento com Node.
-js. Introdução ao Express. Criação de requisições
-HTTP, rotas e middlewares com Express. Introdução
-à ferramenta Insomnia. Construção de APIs HTTP,
-utilizando as principais operações: GET, POST, PUT,
-e DELETE. Desenvolvimento das operações CRUD.
-Persistência de Dados em Arquivos.
+APIs. Introdução ao desenvolvimento com <b>Node.
+js</b>. Introdução ao <b>Express</b>. Criação de requisições
+<b>HTTP</b>, <b>rotas</b> e <b>middlewares</b> com <b>Express</b>. Introdução
+à ferramenta <b>Insomnia</b>. Construção de <b>APIs HTTP</b>,
+utilizando as principais operações: <b>GET</b>, <b>POST</b>, <b>PUT</b>,
+e <b>DELETE</b>. Desenvolvimento das operações <b>CRUD</b>.
+<b>Persistência de Dados</b> em Arquivos.
 </p>
-
+</li>
+<li>
 <h3><b>FrontEnd com React</b></h3>
-<p>Instalação e configuração do React. Criação de projetos
-com o create-react-app. Introdução ao React – JSX,
-Componentes de Funções, Componentes de Classe,
-State, Props, Binding, Interpolação. Comunicação entre
+<p>Instalação e configuração do <b><b>React</b></b>. Criação de projetos
+com o <b>create-react-app</b>. Introdução ao <b>React – JSX</b>,
+Componentes de <b>Funções</b>, <b>Componentes de Classe</b>,
+<b>State</b>, <b>Props</b>, <b>Binding</b>, <b>Interpolação</b>. Comunicação entre
 componentes. Ciclo de vida de componentes de classe.
-Introdução às requisições HTTP com React. Roteamento
-com react-router. Introdução ao Ionic React. Criação de
-um pequeno projeto passo-a-passo com React.
+Introdução às requisições <b>HTTP</b> com <b>React</b>. Roteamento
+com <b>React-router</b>. Introdução ao <b>Ionic React</b>. Criação de
+um pequeno projeto passo-a-passo com <b>React</b>.
 </p>
-
+</li>
+<li>
 <h3><b>Persistência de dados, versionamento de código e implantação</b></h3>
-<p>Introdução ao MongoDB. Utilização do serviço mLab.
-Integrando a API ao MongoDB no mLab. Introdução ao
-Git. Instalação do git. Principais comandos do Git. Como
-publicar aplicações no Github. Introdução ao Heroku.
-Instalação do Heroku CLI. Como implantar aplicações no
-Heroku.
+<p>Introdução ao <b>MongoDB</b>. Utilização do serviço <b>mLab</b>.
+Integrando a API ao <b>MongoDB</b> no <b>mLab</b>. Introdução ao
+<b>Git</b>. Instalação do <b>git</b>. Principais comandos do <b>Git</b>. Como
+publicar aplicações no <b>Github</b>. Introdução ao <b>Heroku</b>.
+Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
+<b>Heroku</b>.
 </p>
-
+</li>
+<li>
 <h3><b>Desafio Final</b></h3>
 <p>Entrega da aplicação final utilizando todos os conceitos aprendidos durante o bootcamp
 </p>
+</li>
+</ol>
+
+# Progresso
+
+- [ ] Módulo 1
+- [ ] Módulo 2
+- [ ] Módulo 3
+- [ ] Módulo 4
+
+# Tecnologias
+
+<ul>
+<li>Node.js
+</li>
+<li>JavaScript
+</li>
+<li>HTML
+</li>
+<li>CSS
+</li>
+<li>React
+</li>
+<li>APIs
+</li>
+<li>Express
+</li>
+<li>HTTP
+</li>
+<li>Rotas
+</li>
+<li>Middlewares
+</li>
+<li>GET, POST, PUT, DELETE,
+</li>
+<li>CRUD
+</li>
+<li>Persistência de dados
+</li>
+<li>React - JSX
+</li>
+<li>React-router
+</li>
+<li>Ionic React
+</li>
+<li>MongoDB
+</li>
+<li>mLab
+</li>
+<li>Git
+</li>
+<li>Github
+</li>
+<li>Heroku
+</li>
+</ul>
