@@ -1,5 +1,7 @@
 <h1>Bootcamp de Desenvolvedor Full-Stack</h1>
 
+<img align="center" src="./assets/bootcamp_fullstack.png">
+
 # Objetivos
 
 <p>Conhecer técnicas de construção de uma aplicação passando por todas as suas camadas lógicas - backend, frontend,
