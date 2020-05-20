@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>RGB Selector</title>
+  </head>
+  <body>
+    <div class="fullContent">
+      <div class="boxContent">
+        <h1>
+          _seletor de cores <span id="rName">r</span><span id="gName">g</span
+          ><span id="bName">b</span>
+        </h1>
+        <div class="divContent">
+          <span class="labelContent" id="redLabel">_red</span>
+          <input
+            class="rangeContent"
+            id="redRange"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+          <span class="colorContent" id="redValue">0</span>
+        </div>
+        <div class="divContent">
+          <span class="labelContent" id="greenLabel">_green</span>
+          <input
+            class="rangeContent"
+            id="greenRange"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+          <span class="colorContent" id="greenValue">0</span>
+        </div>
+        <div class="divContent">
+          <span class="labelContent" id="blueLabel">_blue</span>
+          <input
+            class="rangeContent"
+            id="blueRange"
+            type="range"
+            min="0"
+            max="255"
+            step="1"
+            value="0"
+          />
+          <span class="colorContent" id="blueValue">0</span>
+        </div>
+        <div class="divContent">
+          <span class="labelContent" id="blueLabel"></span>
+          <div id="colorBox"></div>
+          <span class="colorContent" id="blueValue"></span>
+        </div>
+        <h2>Feito com ❤️ por <span id="myName">João Campista</span></h2>
+      </div>
+      <div class="socialTitles">
+        <h3>
+          <a href="https://linkedin.com/in/joaocampista" target="_blank"
+            ><img src="./src/linkedin.png" alt=""
+          /></a>
+        </h3>
+        <h3>
+          <a href="https://github.com/joaocampista" target="_blank"
+            ><img src="./src/github.png" alt=""
+          /></a>
+        </h3>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
