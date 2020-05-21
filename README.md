@@ -3,13 +3,13 @@
 </p>
 <h1 align="center">Bootcamp de Desenvolvedor Full-Stack</h1>
 
-## :triangular_flag_on_post: Objetivos
+## :dart: Objetivos
 
 <p align="justify">Conhecer técnicas de construção de uma aplicação passando por todas as suas camadas lógicas - backend, frontend,
 persistência de dados NoSQL, controle de versionamentode código com Git e implantação em nuvem - habilitando-se
 para atuar profissionalmente na área.</p>
 
-## :blue_book: Módulos
+## :book: Módulos
 
 <ol>
 <li>
@@ -65,9 +65,9 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 </li>
 </ol>
 
-## Progresso
+## :mortar_board: Progresso
 
-### Módulo 1
+### :closed_book: Módulo 1
 
 - [x] Aula 1 - Visual Studio Code :heavy_check_mark:
 - [x] Aula 2 - Node.js :heavy_check_mark:
@@ -87,13 +87,13 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 - [ ] Aula 16 - Requisições HTTP com JavaScript
 - [ ] Aula 17 - Exercício guiado
 
-### Módulo 2
+### :green_book: Módulo 2 :soon:
 
-### Módulo 3
+### :blue_book: Módulo 3 :soon:
 
-### Módulo 4
+### :orange_book: Módulo 4 :soon:
 
-## Desafios
+## :triangular_flag_on_post: Desafios
 
 :heavy_check_mark: <b>Desafio 01:</b> Construir, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
 
