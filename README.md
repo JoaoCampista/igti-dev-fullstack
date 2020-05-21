@@ -3,13 +3,13 @@
 </p>
 <h1 align="center">Bootcamp de Desenvolvedor Full-Stack</h1>
 
-# Objetivos
+## Objetivos
 
 <p align="justify">Conhecer técnicas de construção de uma aplicação passando por todas as suas camadas lógicas - backend, frontend,
 persistência de dados NoSQL, controle de versionamentode código com Git e implantação em nuvem - habilitando-se
 para atuar profissionalmente na área.</p>
 
-# Módulos
+## Módulos
 
 <ol>
 <li>
@@ -65,7 +65,7 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 </li>
 </ol>
 
-# Progresso
+## Progresso
 
 ### Módulo 1
 
@@ -76,8 +76,8 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 - [x] Aula 5 - Introdução ao JavaScript :heavy_check_mark:
 - [x] Aula 6 - JavaScript - comandos de bloco :heavy_check_mark:
 - [x] Aula 7 - JavaScript - manipulação do DOM :heavy_check_mark:
-- [x] Aula 8 - JavaScript - formulários e manipulação de eventos
-- [ ] Aula 9 - CRUD com HTML, CSS e JavaScript
+- [x] Aula 8 - JavaScript - formulários e manipulação de eventos :heavy_check_mark:
+- [x] Aula 9 - CRUD com HTML, CSS e JavaScript :heavy_check_mark:
 - [ ] Aula 10 - JavaScript moderno - Introdução
 - [ ] Aula 11 - JavaScript moderno - Manipulação de arrays
 - [ ] Aula 12 - JavaScript moderno - Rest/Spread operator e destructuring
@@ -93,7 +93,17 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 
 ### Módulo 4
 
-# Tecnologias
+## Desafios
+
+:heavy_check_mark: <b>Desafio 01:</b> Construir, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
+
+- [Seletor de cores RGB](https://joaocampista.github.io/rgb-selector/)
+
+<p align="center">
+  <img src="./modulo-1/trabalho-pratico-01/src/example_01.gif">
+</p>
+
+## Tecnologias
 
 <ul>
 <li>Node.js
