@@ -3,13 +3,13 @@
 </p>
 <h1 align="center">Bootcamp de Desenvolvedor Full-Stack</h1>
 
-## Objetivos
+## :triangular_flag_on_post: Objetivos
 
 <p align="justify">Conhecer técnicas de construção de uma aplicação passando por todas as suas camadas lógicas - backend, frontend,
 persistência de dados NoSQL, controle de versionamentode código com Git e implantação em nuvem - habilitando-se
 para atuar profissionalmente na área.</p>
 
-## Módulos
+## :blue_book: Módulos
 
 <ol>
 <li>
@@ -97,13 +97,13 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 
 :heavy_check_mark: <b>Desafio 01:</b> Construir, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
 
-- [Seletor de cores RGB](https://joaocampista.github.io/rgb-selector/)
+- [Seletor de cores RGB](https://joaocampista.github.io/rgb-selector/) :link:
 
 <p align="center">
   <img src="./modulo-1/trabalho-pratico-01/src/example_01.gif">
 </p>
 
-## Tecnologias
+## :rocket: Tecnologias
 
 <ul>
 <li>Node.js
@@ -149,5 +149,7 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 <li>Heroku
 </li>
 </ul>
+
+---
 
 <p align = "center">Feito com :heart: por <a href="https://linkedin.com/in/joaocampista">João Campista</a></p>
