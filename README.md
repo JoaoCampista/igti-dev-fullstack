@@ -81,8 +81,8 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 - [x] Aula 10 - JavaScript moderno - Introdução :heavy_check_mark:
 - [x] Aula 11 - JavaScript moderno - Manipulação de arrays :heavy_check_mark:
 - [x] Aula 12 - JavaScript moderno - Rest/Spread operator e destructuring :heavy_check_mark:
-- [x] Aula 13 - Refatoração do projeto de CRUD
-- [x] Aula 14 - Introdução à programação assíncrona com JavaScript
+- [x] Aula 13 - Refatoração do projeto de CRUD :heavy_check_mark:
+- [x] Aula 14 - Introdução à programação assíncrona com JavaScript :heavy_check_mark:
 - [ ] Aula 15 - Funções setTimeout e setInterval
 - [ ] Aula 16 - Requisições HTTP com JavaScript
 - [ ] Aula 17 - Exercício guiado
