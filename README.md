@@ -85,7 +85,7 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 - [x] Aula 14 - Introdução à programação assíncrona com JavaScript :heavy_check_mark:
 - [x] Aula 15 - Funções setTimeout e setInterval :heavy_check_mark:
 - [x] Aula 16 - Requisições HTTP com JavaScript :heavy_check_mark:
-- [ ] Aula 17 - Exercício guiado
+- [x] Aula 17 - Exercício guiado :heavy_check_mark:
 
 ### :green_book: Módulo 2 :soon:
 
