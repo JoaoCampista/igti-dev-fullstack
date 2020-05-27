@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>People Find</title>
+  </head>
+  <body>
+    <div>
+      <h1>pesquisa de usuário</h1>
+    </div>
+    <div>
+      <input
+        id="userSearch"
+        type="text"
+        placeholder="Informe um nome aqui..."
+      />
+      <button>buscar</button>
+    </div>
+
+    <div class="container">
+      <div>
+        <h2><span id="usersFound"></span> usuário(s) encontrado(s)</h2>
+        <div id="usersFoundList">oi</div>
+      </div>
+
+      <div>
+        <h2>estatísticas</h2>
+
+        <div>
+          <p>sexo masculino: <span id="countMale">30</span></p>
+          <p>sexo feminino: <span id="countFemale">15</span></p>
+          <p>soma das idades: <span id="sumAge">1.000</span></p>
+          <p>média das idades: <span id="meanAge">50,3</span></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

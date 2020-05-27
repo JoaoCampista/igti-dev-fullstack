@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: initial;
+  align-content: center;
+  border: 1px solid;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: initial;
+  align-content: center;
+  border: 1px solid;
+}
