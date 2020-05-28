@@ -7,6 +7,7 @@ let textUsersFound = null;
 let textInitial = null;
 let dataContainer = null;
 let numberFormat = null;
+let loadingContainer = null;
 
 let allUsers = [];
 let filteredUsers = [];
@@ -17,16 +18,21 @@ let countFemale = 0;
 let sumAge = 0;
 let meanAge = 0;
 let totalUsersFound = 0;
+let count = 0;
 
 window.addEventListener('load', () => {
   userSearch = document.querySelector('#userSearch');
   dataContainer = document.querySelector('#dataContainer');
+  loadingContainer = document.querySelector('#loadingContainer');
+
+  loadingStatus();
 
   userSearch.addEventListener('keyup', (event) => {
     if (event.key === 'Enter' && event.target.value.trim() !== '') {
       filterUserList(userSearch.value.toLowerCase());
       render();
       renderUserFavoriteList();
+
       if (favoriteUsers.length !== 0) {
         handleFavoriteButtons();
       }
@@ -63,7 +69,6 @@ async function fetchUsers() {
 
 function render() {
   renderUserList();
-  //renderUserFavoriteList();
   renderStats();
   handleUsersButtons();
 }
@@ -265,4 +270,14 @@ function removeFromFavorites(id) {
 
 function formatNumber(number) {
   return numberFormat.format(number);
+}
+
+function loadingStatus() {
+  loadingContainer.innerHTML = `
+  <div class="spinner-border text-dark my-5" style="width: 4rem; height: 4rem;" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>`;
+  const interval = setInterval(() => {
+    loadingContainer.innerHTML = '';
+  }, 2000);
 }
