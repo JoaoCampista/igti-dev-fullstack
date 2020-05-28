@@ -24,10 +24,12 @@ window.addEventListener('load', () => {
 
   userSearch.addEventListener('keyup', (event) => {
     if (event.key === 'Enter' && event.target.value.trim() !== '') {
-      console.log(favoriteUsers);
       filterUserList(userSearch.value.toLowerCase());
       render();
       renderUserFavoriteList();
+      if (favoriteUsers.length !== 0) {
+        handleFavoriteButtons();
+      }
     } else {
       if (event.key === 'Enter' && userSearch.value.trim() === '') {
         render();
@@ -78,6 +80,9 @@ function filterUserList(nameToFilter) {
       );
     });
   }
+  filteredUsers.sort((a, b) => {
+    return a.nameFull.localeCompare(b.nameFull);
+  });
 }
 
 function renderUserList() {
@@ -122,7 +127,7 @@ function renderUserList() {
       const { id, nameFirst, nameLast, avatar, age } = user; // destructuring
       const userHTML = `
     <div class='d-flex flex-row align-items-center bd-highlight mb-3 ml-3 id='${id}'>
-      <div class='d-flex flex-row align-items-center w-75'>
+      <div class='d-flex flex-row align-items-center flex-fill'>
         <div>
           <img src="${avatar}" alt="${nameFirst}-${nameLast}" class="rounded-circle mr-2"/>
         </div>
@@ -130,7 +135,7 @@ function renderUserList() {
           <span>${nameFirst} ${nameLast}</span>, <span>${age}</span> anos
         </div>
       </div>
-        <div class='w-25 d-flex justify-content-end mr-3'>
+        <div class='d-flex justify-content-end mx-3'>
           <button type="button" id="${id}"class="btn btn-dark">+</button>
         </div>
     </div>
@@ -145,7 +150,6 @@ function renderUserList() {
 
 function renderUserFavoriteList() {
   if (favoriteUsers.length !== 0) {
-    console.log('entreeei');
     containerFavorites.innerHTML = `
     <div class="border rounded-lg bg-white mt-3 mb-3">
       <h4 class="d-flex justify-content-center">favoritos</h4>
@@ -160,7 +164,7 @@ function renderUserFavoriteList() {
       const { id, nameFirst, nameLast, avatar, age } = user; // destructuring
       const favoriteHTML = `
             <div class='d-flex flex-row align-items-center bd-highlight mb-3 ml-3 id='${id}'>
-              <div class='d-flex flex-row align-items-center w-75'>
+              <div class='d-flex flex-row align-items-center flex-fill'>
                 <div>
                   <img src="${avatar}" alt="${nameFirst}-${nameLast}" class="rounded-circle mr-2"/>
                 </div>
@@ -168,7 +172,7 @@ function renderUserFavoriteList() {
                   <span>${nameFirst} ${nameLast}</span>, <span>${age}</span> anos
                 </div>
               </div>
-                <div class='w-25 d-flex justify-content-end mr-3'>
+                <div class=' d-flex justify-content-end mx-3'>
                   <button type="button" id="${id}"class="btn btn-dark">-</button>
                 </div>
             </div>
@@ -184,7 +188,6 @@ function renderUserCount() {
   totalUsersFound.innerHTML = filteredUsers.length;
 
   if (filteredUsers.length === 1) {
-    console.log(filteredUsers.length);
     textUsersFound.innerHTML = 'usuário encontrado';
   } else {
     textUsersFound.innerHTML = 'usuários encontrados';
@@ -199,11 +202,17 @@ function renderStats() {
     (user) => user.gender === 'female'
   ).length;
 
-  sumAge.innerHTML = filteredUsers.reduce((accumulator, current) => {
-    return accumulator + current.age;
-  }, 0);
+  sumAge.innerHTML = formatNumber(
+    filteredUsers.reduce((accumulator, current) => {
+      return accumulator + current.age;
+    }, 0)
+  );
 
-  meanAge.innerHTML = sumAge.innerHTML / filteredUsers.length;
+  meanAge.innerHTML = Math.round(
+    filteredUsers.reduce((accumulator, current) => {
+      return accumulator + current.age;
+    }, 0) / filteredUsers.length
+  );
 }
 
 function handleUsersButtons() {
@@ -227,6 +236,11 @@ function addToFavorites(id) {
   const userToAdd = filteredUsers.find((user) => user.id === id);
 
   favoriteUsers = [...favoriteUsers, userToAdd];
+
+  favoriteUsers.sort((a, b) => {
+    return a.nameFull.localeCompare(b.nameFull);
+  });
+
   filteredUsers = filteredUsers.filter((user) => user.id !== id);
 
   render();
@@ -238,9 +252,17 @@ function removeFromFavorites(id) {
   const userToRemove = favoriteUsers.find((user) => user.id === id);
 
   filteredUsers = [...filteredUsers, userToRemove];
+
+  filteredUsers.sort((a, b) => {
+    return a.nameFull.localeCompare(b.nameFull);
+  });
+
   favoriteUsers = favoriteUsers.filter((user) => user.id !== id);
-  console.log(favoriteUsers);
   render();
   renderUserFavoriteList();
   handleFavoriteButtons();
+}
+
+function formatNumber(number) {
+  return numberFormat.format(number);
 }
