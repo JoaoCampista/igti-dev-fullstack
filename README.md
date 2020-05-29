@@ -105,7 +105,7 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 
 :heavy_check_mark: <b>Desafio 02:</b> Construir, utilizando HTML, CSS e JavaScript puro, uma aplicação para a localização de usuários de uma API.
 
-- [Localizador de usuários](https://joaocampista.github.io/user-locator/) :link:
+- [Localizador de Usuários](https://joaocampista.github.io/user-locator/) :link:
 
 <p align="center">
   <img src="./modulo-1/trabalho-pratico-03/src/example_01.gif">

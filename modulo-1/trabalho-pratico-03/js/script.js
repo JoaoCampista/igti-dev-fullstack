@@ -274,7 +274,7 @@ function formatNumber(number) {
 
 function loadingStatus() {
   loadingContainer.innerHTML = `
-  <div class="spinner-border text-dark my-5" style="width: 4rem; height: 4rem;" role="status">
+  <div class="spinner-border text-danger my-5" style="width: 4rem; height: 4rem;" role="status">
     <span class="sr-only">Loading...</span>
   </div>`;
   const interval = setInterval(() => {
