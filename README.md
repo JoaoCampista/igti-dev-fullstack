@@ -69,15 +69,15 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 
 ### :closed_book: Módulo 1
 
-- [x] Aula 1 - Visual Studio Code :heavy_check_mark:
-- [x] Aula 2 - Node.js :heavy_check_mark:
-- [x] Aula 3 - Noções de HTML :heavy_check_mark:
-- [x] Aula 4 - Noções de CSS :heavy_check_mark:
-- [x] Aula 5 - Introdução ao JavaScript :heavy_check_mark:
-- [x] Aula 6 - JavaScript - comandos de bloco :heavy_check_mark:
-- [x] Aula 7 - JavaScript - manipulação do DOM :heavy_check_mark:
-- [x] Aula 8 - JavaScript - formulários e manipulação de eventos :heavy_check_mark:
-- [x] Aula 9 - CRUD com HTML, CSS e JavaScript :heavy_check_mark:
+- [x] Aula 01 - Visual Studio Code :heavy_check_mark:
+- [x] Aula 02 - Node.js :heavy_check_mark:
+- [x] Aula 03 - Noções de HTML :heavy_check_mark:
+- [x] Aula 04 - Noções de CSS :heavy_check_mark:
+- [x] Aula 05 - Introdução ao JavaScript :heavy_check_mark:
+- [x] Aula 06 - JavaScript - comandos de bloco :heavy_check_mark:
+- [x] Aula 07 - JavaScript - manipulação do DOM :heavy_check_mark:
+- [x] Aula 08 - JavaScript - formulários e manipulação de eventos :heavy_check_mark:
+- [x] Aula 09 - CRUD com HTML, CSS e JavaScript :heavy_check_mark:
 - [x] Aula 10 - JavaScript moderno - Introdução :heavy_check_mark:
 - [x] Aula 11 - JavaScript moderno - Manipulação de arrays :heavy_check_mark:
 - [x] Aula 12 - JavaScript moderno - Rest/Spread operator e destructuring :heavy_check_mark:
@@ -87,7 +87,23 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 - [x] Aula 16 - Requisições HTTP com JavaScript :heavy_check_mark:
 - [x] Aula 17 - Exercício guiado :heavy_check_mark:
 
-### :green_book: Módulo 2 :soon:
+### :green_book: Módulo 2
+
+- [ ] Aula 01 - Backend, Frontend e API's
+- [ ] Aula 02 - Node.js
+- [ ] Aula 03 - NPM, IDE de desenvolvimento e ferramentas para consumo de endpoints
+- [ ] Aula 04 - Express: instalação, Hello World e configurações iniciais
+- [ ] Aula 05 - Express: rotas, middlewares e tratamento de erros
+- [ ] Aula 06 - Express: gravação de logs e servindo arquivos estáticos
+- [ ] Aula 07 - Construção de uma API: instalações
+- [ ] Aula 08 - Apresentação da API e criação do projeto-
+- [ ] Aula 09 - Método POST
+- [ ] Aula 10 - Método GET
+- [ ] Aula 11 - Try catch e Método DELETE
+- [ ] Aula 12 - Método PUT
+- [ ] Aula 13 - Promises
+- [ ] Aula 14 - Gravação de logs e ES Modules
+- [ ] Aula 15 - Documentação e Cors
 
 ### :blue_book: Módulo 3 :soon:
 
@@ -98,6 +114,7 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 :heavy_check_mark: <b>Desafio 01:</b> Construir, utilizando HTML, CSS e JavaScript puro, uma aplicação para a visualização de cores a partir da escala RGB.
 
 - [Seletor de cores RGB](https://joaocampista.github.io/rgb-selector/) :link:
+- [Repositório no Github](https://github.com/JoaoCampista//rgb-selector/) :link:
 
 <p align="center">
   <img src="./modulo-1/trabalho-pratico-01/src/example_01.gif">
@@ -106,6 +123,7 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 :heavy_check_mark: <b>Desafio 02:</b> Construir, utilizando HTML, CSS e JavaScript puro, uma aplicação para a localização de usuários de uma API.
 
 - [Localizador de Usuários](https://joaocampista.github.io/user-locator/) :link:
+- [Repositório no Github](https://github.com/JoaoCampista/user-locator) :link:
 
 <p align="center">
   <img src="./modulo-1/trabalho-pratico-03/src/example_01.gif">
