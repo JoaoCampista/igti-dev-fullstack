@@ -1,0 +1,6 @@
+npm init - inicia o projeto
+npm install express - instala o express , faz os roteamentos da pagina
+
+após criar o projeto devemos liverar os modulos experimentais do node
+
+node –experimental-modules src/app.js // deve se passar o caminho do app.js

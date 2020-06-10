@@ -89,10 +89,10 @@ Instalação do <b>Heroku CLI</b>. Como implantar aplicações no
 
 ### :green_book: Módulo 2
 
-- [ ] Aula 01 - Backend, Frontend e API's
-- [ ] Aula 02 - Node.js
-- [ ] Aula 03 - NPM, IDE de desenvolvimento e ferramentas para consumo de endpoints
-- [ ] Aula 04 - Express: instalação, Hello World e configurações iniciais
+- [x] Aula 01 - Backend, Frontend e API's
+- [x] Aula 02 - Node.js
+- [x] Aula 03 - NPM, IDE de desenvolvimento e ferramentas para consumo de endpoints
+- [x] Aula 04 - Express: instalação, Hello World e configurações iniciais
 - [ ] Aula 05 - Express: rotas, middlewares e tratamento de erros
 - [ ] Aula 06 - Express: gravação de logs e servindo arquivos estáticos
 - [ ] Aula 07 - Construção de uma API: instalações

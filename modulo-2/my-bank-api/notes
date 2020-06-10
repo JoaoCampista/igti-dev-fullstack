@@ -1,0 +1,5 @@
+npm init
+criação do index.js
+npm install express
+npm install nodemon -D //dev
+npm install -g nodemon // global
